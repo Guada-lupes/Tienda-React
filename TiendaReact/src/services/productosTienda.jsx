@@ -18,7 +18,7 @@ const productos = [
   {
     id: 2,
     nombre: "smartphone samsung galaxy s23",
-    categoria: "Smartphone",
+    categoria: "Smartphones",
     precio: 999,
     imagen:
       "https://www.pascualmarti.es/rep/423b/1636779040/203/smartphone-samsung-s23-8256-61quot-black.jpg",
@@ -35,7 +35,7 @@ const productos = [
   {
     id: 3,
     nombre: "monitor lg ultragear 27",
-    categoria: "Monitor",
+    categoria: "Monitores",
     precio: 320,
     imagen: "https://www.coolmod.com/images/product/large/PROD-036680_1.jpg",
     descripcion:
@@ -66,7 +66,7 @@ const productos = [
   {
     id: 5,
     nombre: "mouse razer deathadder v2",
-    categoria: "Mouse",
+    categoria: "Ratones",
     precio: 59,
     imagen:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoW-NFAEsbcTvWA-9aAtapYu1B04EHdVvgmQ&s",
@@ -81,7 +81,7 @@ const productos = [
   {
     id: 6,
     nombre: "tablet apple ipad air 5",
-    categoria: "Tablet",
+    categoria: "Tablets",
     precio: 599,
     imagen:
       "https://rossellimac.es/cdn/shop/files/iPad_Air_Cellular_Space_Gray_PDP_Image_Position-1a_5G__ESES_5bfb1f98-c420-4836-8175-089295c24b03.jpg?v=1689071658&width=823",
@@ -128,7 +128,7 @@ const productos = [
   {
     id: 9,
     nombre: "cargador inalambrico belkin boost up",
-    categoria: "Cargador",
+    categoria: "Cargadores",
     precio: 45,
     imagen: "https://m.media-amazon.com/images/I/61HNSwSlYvL.jpg",
     descripcion: "cargador rapido inalambrico compatible con iphone y android.",
@@ -157,7 +157,7 @@ const productos = [
   {
     id: 11,
     nombre: "camara web logitech c920",
-    categoria: "Camara web",
+    categoria: "Camaras web",
     precio: 89,
     imagen: "https://i.ebayimg.com/images/g/k1kAAOSw-k9mYVzO/s-l1200.jpg",
     descripcion: "camara web full hd 1080p con microfono integrado.",
@@ -171,7 +171,7 @@ const productos = [
   {
     id: 12,
     nombre: "impresora hp deskjet 4155e",
-    categoria: "Impresora",
+    categoria: "Impresoras",
     precio: 129,
     imagen: "https://m.media-amazon.com/images/I/51zufECQVaL.jpg",
     descripcion:
@@ -202,7 +202,7 @@ const productos = [
   {
     id: 14,
     nombre: "tarjeta grafica nvidia rtx 3060",
-    categoria: "Tarjeta gráfica",
+    categoria: "Tarjetas gráfica",
     precio: 349,
     imagen: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_100541854?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
     descripcion: "gpu para gaming con 12gb de vram y arquitectura ampere.",
@@ -216,7 +216,7 @@ const productos = [
   {
     id: 15,
     nombre: "router tp-link archer ax73",
-    categoria: "Router",
+    categoria: "Routers",
     precio: 159,
     imagen: "https://tiendaselectron.com/126972-large_default/router-tp-link-archer-ax53-ax3000.jpg",
     descripcion:
@@ -231,7 +231,7 @@ const productos = [
   {
     id: 16,
     nombre: "silla gamer dxracer formula",
-    categoria: "Silla gamer",
+    categoria: "Sillas gamer",
     precio: 299,
     imagen: "https://m.media-amazon.com/images/I/712UqX-KrxL.jpg",
     descripcion:
@@ -246,7 +246,7 @@ const productos = [
   {
     id: 17,
     nombre: "microfono rode nt-usb",
-    categoria: "Micrófono",
+    categoria: "Micrófonos",
     precio: 169,
     imagen: "https://www.muslands.com/311-thickbox_default/rode-microfono-estudio-usb-nt-usb.jpg",
     descripcion:

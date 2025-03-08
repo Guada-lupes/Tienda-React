@@ -1,7 +1,14 @@
-import React from 'react'
+import { Header } from "../componentes/Header";
+import { Footer } from "../componentes/Footer";
+import { CarritoProductos } from "../componentes/CarritoProductos";
 
 export const Carrito = () => {
+
   return (
-    <div>Carrito</div>
-  )
-}
+<>
+<Header/>
+<CarritoProductos/>
+<Footer/>
+</>
+  );
+};
