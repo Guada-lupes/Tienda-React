@@ -2,7 +2,7 @@ const productos = [
   {
     id: 1,
     nombre: "laptop asus vivobook 15",
-    categoria: "Laptop",
+    categoria: "laptop",
     precio: 750,
     imagen:
       "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202312/07/00115215596261____1__1200x1200.jpg",
@@ -18,7 +18,7 @@ const productos = [
   {
     id: 2,
     nombre: "smartphone samsung galaxy s23",
-    categoria: "Smartphones",
+    categoria: "smartphones",
     precio: 999,
     imagen:
       "https://www.pascualmarti.es/rep/423b/1636779040/203/smartphone-samsung-s23-8256-61quot-black.jpg",
@@ -35,7 +35,7 @@ const productos = [
   {
     id: 3,
     nombre: "monitor lg ultragear 27",
-    categoria: "Monitores",
+    categoria: "monitores",
     precio: 320,
     imagen: "https://www.coolmod.com/images/product/large/PROD-036680_1.jpg",
     descripcion:
@@ -50,7 +50,7 @@ const productos = [
   {
     id: 4,
     nombre: "teclado mecanico logitech g pro",
-    categoria: "Teclado",
+    categoria: "teclado",
     precio: 129,
     imagen:
       "https://corporativo.tecnoplaza.com.co/wp-content/uploads/2020/09/Teclado-Mecanico-Gamer-Logitech-G-Pro-600x600.jpg",
@@ -66,7 +66,7 @@ const productos = [
   {
     id: 5,
     nombre: "mouse razer deathadder v2",
-    categoria: "Ratones",
+    categoria: "ratones",
     precio: 59,
     imagen:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoW-NFAEsbcTvWA-9aAtapYu1B04EHdVvgmQ&s",
@@ -81,7 +81,7 @@ const productos = [
   {
     id: 6,
     nombre: "tablet apple ipad air 5",
-    categoria: "Tablets",
+    categoria: "tablets",
     precio: 599,
     imagen:
       "https://rossellimac.es/cdn/shop/files/iPad_Air_Cellular_Space_Gray_PDP_Image_Position-1a_5G__ESES_5bfb1f98-c420-4836-8175-089295c24b03.jpg?v=1689071658&width=823",
@@ -97,7 +97,7 @@ const productos = [
   {
     id: 7,
     nombre: "auriculares sony wh-1000xm4",
-    categoria: "Auriculares",
+    categoria: "auriculares",
     precio: 349,
     imagen:
       "https://media.ldlc.com/r1600/ld/products/00/05/89/88/LD0005898839_1.jpg",
@@ -112,7 +112,7 @@ const productos = [
   {
     id: 8,
     nombre: "smartwatch samsung galaxy watch 5",
-    categoria: "Smartwatch",
+    categoria: "smartwatch",
     precio: 279,
     imagen:
       "https://www.yaphone.com/5212-thickbox_default/samsung-galaxy-watch-5.jpg",
@@ -128,7 +128,7 @@ const productos = [
   {
     id: 9,
     nombre: "cargador inalambrico belkin boost up",
-    categoria: "Cargadores",
+    categoria: "cargadores",
     precio: 45,
     imagen: "https://m.media-amazon.com/images/I/61HNSwSlYvL.jpg",
     descripcion: "cargador rapido inalambrico compatible con iphone y android.",
@@ -142,7 +142,7 @@ const productos = [
   {
     id: 10,
     nombre: "disco ssd samsung 980 pro 1tb",
-    categoria: "Disco ssd",
+    categoria: "disco ssd",
     precio: 179,
     imagen: "https://thumb.pccomponentes.com/w-530-530/articles/79/792656/3605-samsung-980-pro-1tb-ssd-pcie-40-nvme-m2-con-disipador-de-calor-mejor-precio.jpg",
     descripcion:
@@ -157,7 +157,7 @@ const productos = [
   {
     id: 11,
     nombre: "camara web logitech c920",
-    categoria: "Camaras web",
+    categoria: "camaras web",
     precio: 89,
     imagen: "https://i.ebayimg.com/images/g/k1kAAOSw-k9mYVzO/s-l1200.jpg",
     descripcion: "camara web full hd 1080p con microfono integrado.",
@@ -171,7 +171,7 @@ const productos = [
   {
     id: 12,
     nombre: "impresora hp deskjet 4155e",
-    categoria: "Impresoras",
+    categoria: "impresoras",
     precio: 129,
     imagen: "https://m.media-amazon.com/images/I/51zufECQVaL.jpg",
     descripcion:
@@ -187,7 +187,7 @@ const productos = [
     
     id: 13,
     nombre: "altavoces bluetooth jbl flip 6",
-    categoria: "Altavoces",
+    categoria: "altavoces",
     precio: 119,
     imagen: "https://media.ldlc.com/r1600/ld/products/00/05/96/55/LD0005965586.jpg",
     descripcion:
@@ -202,7 +202,7 @@ const productos = [
   {
     id: 14,
     nombre: "tarjeta grafica nvidia rtx 3060",
-    categoria: "Tarjetas gráfica",
+    categoria: "tarjetas gráfica",
     precio: 349,
     imagen: "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_100541854?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
     descripcion: "gpu para gaming con 12gb de vram y arquitectura ampere.",
@@ -216,7 +216,7 @@ const productos = [
   {
     id: 15,
     nombre: "router tp-link archer ax73",
-    categoria: "Routers",
+    categoria: "routers",
     precio: 159,
     imagen: "https://tiendaselectron.com/126972-large_default/router-tp-link-archer-ax53-ax3000.jpg",
     descripcion:
@@ -231,7 +231,7 @@ const productos = [
   {
     id: 16,
     nombre: "silla gamer dxracer formula",
-    categoria: "Sillas gamer",
+    categoria: "sillas gamer",
     precio: 299,
     imagen: "https://m.media-amazon.com/images/I/712UqX-KrxL.jpg",
     descripcion:
@@ -246,7 +246,7 @@ const productos = [
   {
     id: 17,
     nombre: "microfono rode nt-usb",
-    categoria: "Micrófonos",
+    categoria: "micrófonos",
     precio: 169,
     imagen: "https://www.muslands.com/311-thickbox_default/rode-microfono-estudio-usb-nt-usb.jpg",
     descripcion:
@@ -261,7 +261,7 @@ const productos = [
   {
     id: 18,
     nombre: "consola playstation 5",
-    categoria: "Consolas",
+    categoria: "consolas",
     precio: 499,
     imagen: "https://media.direct.playstation.com/is/image/psdglobal/PS5-digital-edition-console-side-recert",
     descripcion:
@@ -276,7 +276,7 @@ const productos = [
   {
     id: 19,
     nombre: "kit luces led nanoleaf shapes",
-    categoria: "Luces",
+    categoria: "luces",
     precio: 199,
     imagen: "https://m.media-amazon.com/images/I/611iYn7WUBL._AC_UF894,1000_QL80_.jpg",
     descripcion:

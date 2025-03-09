@@ -1,12 +1,15 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { ProductosContexto } from "../contextos/productosContexto";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { anadir } from "../features/carritoSlice";
 
 export const DetalleProducto = () => {
 
   const {productos} = useContext(ProductosContexto);
   const {id} = useParams();
+  const dispatch = useDispatch();
   const producto = productos.find((producto)=>parseInt(producto.id) === parseInt(id))
 
   console.log(producto);

@@ -1,25 +1,27 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { ProductosContexto } from "../contextos/productosContexto";
 import { NavegadorCategorias } from "./NavegadorCategorias";
-import { useSelector, useDispatch } from "react-redux";
+import {useDispatch } from "react-redux";
 import { anadir } from "../features/carritoSlice";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useParams } from "react-router-dom";
 
 export const Productos = () => {
   const { productos } = useContext(ProductosContexto);
   const dispatch= useDispatch();
-  const carrito = useSelector((state)=>state.carrito)
+  const {categoria} = useParams();
 
-  useEffect(()=>{
-    console.log(carrito);
-    
-  }, [carrito])
+const productosRenderizar = categoria ? productos.filter((producto)=>producto.categoria === categoria) : productos;
+
+console.log(productosRenderizar);
+console.log(productos);
+
+
   return (
     <>
       <NavegadorCategorias />
       <div>
         <div className="contenedor-productos">
-          {productos.map((producto) => (
+          {productosRenderizar.map((producto) => (
             <div className="tarjeta-producto">
               <li key={producto.id}>
                 <img src={producto.imagen} alt={producto.nombre} />
