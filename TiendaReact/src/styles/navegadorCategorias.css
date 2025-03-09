@@ -1,0 +1,19 @@
+.nav-container{
+    width: 90%;
+    background-color: aquamarine;
+    justify-self: center;
+    overflow: hidden;
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        white-space: nowrap;
+    }
+    nav a:visited, nav a:active, nav a:hover{
+        color: black;
+    }
+}

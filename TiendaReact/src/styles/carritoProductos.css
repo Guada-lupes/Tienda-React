@@ -1,0 +1,30 @@
+.carrito-section{
+    background-color: chocolate;
+    padding: 10px;
+    width: 90%;
+    justify-self: center;
+    border: solid;
+    margin-top: 20px;
+    height: 80vh;
+    margin-bottom: 20px;
+}
+.carrito-button-container{
+    margin-bottom: 20px;
+    .carrito-inicio-button{
+
+    }
+}
+.carrrito-buttom-cantidad{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    .carrito-buttom{
+        width: 20px;
+    }
+}
+.carrito-ul{
+
+    .carrito-li{
+        padding: 10px;
+    }
+}

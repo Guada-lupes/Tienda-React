@@ -1,0 +1,22 @@
+.contenedor-tarjeta-detalles{
+    margin: 20px;
+}
+.tarjeta-detalles{
+    background-color: blueviolet;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: solid;
+    justify-self: center;
+    text-align: justify;
+    .img-tarjeta-producto{
+        width: 60%;
+    }
+}
+.botones-contenedor-detalle{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}

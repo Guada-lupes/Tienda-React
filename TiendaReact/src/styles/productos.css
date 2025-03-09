@@ -1,0 +1,28 @@
+.contenedor-productos{
+    background-color: rgb(238, 57, 57);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: anchor-center;
+    gap: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tarjeta-producto{background-color: blueviolet;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: solid;
+    
+    .img-tarjeta-producto{
+        width: 60%;
+    }
+}
+.botones-contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}

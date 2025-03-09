@@ -4,6 +4,7 @@ import { NavegadorCategorias } from "./NavegadorCategorias";
 import {useDispatch } from "react-redux";
 import { anadir } from "../features/carritoSlice";
 import { Link, Outlet, useParams } from "react-router-dom";
+import "../styles/productos.css"
 
 export const Productos = () => {
   const { productos } = useContext(ProductosContexto);
@@ -23,14 +24,18 @@ console.log(productos);
         <div className="contenedor-productos">
           {productosRenderizar.map((producto) => (
             <div className="tarjeta-producto">
-              <li key={producto.id}>
-                <img src={producto.imagen} alt={producto.nombre} />
+              <div className="img-tarjeta-producto">
+              <img src={producto.imagen} alt={producto.nombre} />
+              </div>
+                
                 <p>{producto.precio}</p>
                 <p>{producto.nombre}</p>
-                <button onClick={()=>dispatch(anadir({nombre: producto.nombre, id:producto.id, cantidad: 1}))}>Añadir</button>
-                <Link to={`/${producto.id}`}><button>Detalles</button></Link>
+            <div className="botones-contenedor-productos">
+            <button onClick={()=>dispatch(anadir({nombre: producto.nombre, id:producto.id, cantidad: 1}))}>Añadir</button>
+            <Link to={`/producto/${producto.id}`}><button>Detalles</button></Link>
+            </div>
                 <Outlet/>
-              </li>
+              
             </div>
           ))}
         </div>
