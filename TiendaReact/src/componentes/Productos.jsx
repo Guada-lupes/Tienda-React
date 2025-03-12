@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { ProductosContexto } from "../contextos/productosContexto";
-import { NavegadorCategorias } from "./NavegadorCategorias";
 import {useDispatch } from "react-redux";
 import { anadir } from "../features/carritoSlice";
 import { Link, Outlet, useParams } from "react-router-dom";
@@ -19,7 +18,6 @@ console.log(productos);
 
   return (
     <>
-      <NavegadorCategorias />
       <div>
         <div className="contenedor-productos">
           {productosRenderizar.map((producto) => (

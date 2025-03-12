@@ -7,11 +7,14 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
+        display: block;
+        margin-left: 10px;
     }
     nav a{
         text-decoration: none;
         color: black;
         white-space: nowrap;
+        
     }
     nav a:visited, nav a:active, nav a:hover{
         color: black;
