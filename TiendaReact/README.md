@@ -31,11 +31,14 @@ Si te interesa tener más información sobre un producto, pincha en "Detalles".
 
 Si quieres ver que hay en tu carrito, pincha en el carrito.
 
-Hay un pequeño fallo que me hubiese gustado corregir:
+Hay varios fallos y mejoras que me hubiese gustado corregir, como los siguientes:
 
 ----El volver debe desaparecer si pincho en menu desplegable.
+----Un mismo componente renderiza productos y categorias, lo cual complica aplicar estilos diferenciados, perjudicando la visualización del producto en categorias.
+----Al pasar de una página a otra, si estoy en la parte inferior de la web, aparezco en la parte inferior de la siguiente página.
+---- Al añadir un producto a la página, que el botón reaccione de alguna manera y el icono carrito también, no sólo con le primer producto
 
-Esto lo arreglaré en otro momento.
+Pero no me da la vida, ya lo arreglaré más adelante.
 
 Espero que lo disfrutes, saludos !
 
