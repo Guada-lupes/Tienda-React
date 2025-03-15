@@ -1,3 +1,7 @@
+.section-tienda{
+    min-height: 80vh;
+
+}
 .contenedor-productos{
     background-color: rgb(238, 57, 57);
     display: flex;

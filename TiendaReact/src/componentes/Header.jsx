@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 import "../styles/header.css"
+
 export const Header = () => {
+  const carrito = useSelector((state)=>state.carrito)
   return (
     <>
       <section className="header">
@@ -8,14 +11,11 @@ export const Header = () => {
         <img className="header-logo" src="../../Lupas.png" />
         </div>
       <div className="header-carrito-container">
-      <Link to="/carrito"><img className="header-carrito" src="../../public/cart-fill.svg"/></Link>
+      {
+        carrito.length ===0 ? (      <Link to="/carrito"><img className="header-carrito" src="../../public/cart.svg"/></Link>) : (  <Link to="/carrito"><img className="header-carrito" src="../../public/cart-fill.svg"/></Link>)
+      }
       </div>
         </section>
-      
-      {/* <div>
-    <img
-    {carrito ? src="../../public/cart-fill.svg" : src="../../public/cart.svg"}/>
-    </div> */}
     </>
   );
 };

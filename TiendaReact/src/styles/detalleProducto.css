@@ -1,5 +1,7 @@
 .contenedor-tarjeta-detalles{
-    margin: 20px;
+    margin-top: 90px;
+    min-height: 90vh;
+    margin-bottom: 10px;
 }
 .tarjeta-detalles{
     background-color: blueviolet;

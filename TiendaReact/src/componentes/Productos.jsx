@@ -18,10 +18,10 @@ console.log(productos);
 
   return (
     <>
-      <div>
+      <section className="section-tienda">
         <div className="contenedor-productos">
           {productosRenderizar.map((producto) => (
-            <div className="tarjeta-producto">
+            <div key={producto.id} className="tarjeta-producto">
               <div className="img-tarjeta-producto">
               <img src={producto.imagen} alt={producto.nombre} />
               </div>
@@ -29,7 +29,7 @@ console.log(productos);
                 <p>{producto.precio}</p>
                 <p>{producto.nombre}</p>
             <div className="botones-contenedor-productos">
-            <button onClick={()=>dispatch(anadir({nombre: producto.nombre, id:producto.id, cantidad: 1}))}>Añadir</button>
+            <button onClick={()=>dispatch(anadir({nombre: producto.nombre, id:producto.id, cantidad: 1, precio: producto.precio}))}>Añadir</button>
             <Link to={`/producto/${producto.id}`}><button>Detalles</button></Link>
             </div>
                 <Outlet/>
@@ -37,7 +37,7 @@ console.log(productos);
             </div>
           ))}
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -13,7 +13,6 @@ export const NavegadorCategorias = ({abrirMenu}) => {
   return (
     <div className="nav-container">
     <nav >
-          <Link to="/categoria" onClick={abrirMenu}>todo</Link>
           {productosOrdenados.map((producto)=>
           (<Link key={producto} to={`/categoria/${producto}`} onClick={abrirMenu}>
             <p>{producto}</p>
