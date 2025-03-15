@@ -1,6 +1,6 @@
 .header{
-    background-color: black;
-    height: 10vh;
+    background-color: #AAD5BB;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,35 +9,45 @@
     top: 0;
     z-index: 1000;
 }
+
 .header-img-container{
     width: 100px;
-    background-color: aliceblue;
+
     overflow: hidden;
     align-self: center;
-    margin-left: 10px;
+    margin-left: 20px;
     .header-logo{
         width: 100%;
-        color: aliceblue;
     }
 }
 .header-carrito-container{
-    background-color: aliceblue;
+
     align-self: center;
-    margin-right: 10px;
-    .header-carrito{
-        width: 25px;
-    }
+    margin-right: 20px;
 }
 
 @media (min-width: 480px){
     .header-img-container{
-        width: 300px;
-        margin-left: 60px;
+        width: 180px;
+        margin-left: 40px;
     }
     .header-carrito-container {
-        margin-right: 60px
+        margin-right: 50px;
+        .header-carrito {
+            width: 60px;;
+        }
 }
-.header-carrito {
-    width: 80px;
+
+}
+
+@media (min-width: 768px){
+    .header-img-container{
+        margin-left: 40px;
+    }
+    .header-carrito-container {
+        margin-right: 40px;
+        .header-carrito {
+            width: 50px;;
+        }
 }
 }

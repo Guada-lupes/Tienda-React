@@ -20,7 +20,7 @@ export const DetalleProducto = () => {
     <div className="contenedor-tarjeta-detalles">
     <div className="tarjeta-detalles">
                 <img src={producto.imagen} alt={producto.nombre} />
-                <p>{producto.precio}</p>
+                <p>{`${producto.precio} €`}</p>
                 <h2>{producto.nombre}</h2>
                 <p>{producto.descripcion}</p>
                 <p>{producto.caracteristicas.join(", ")}</p>

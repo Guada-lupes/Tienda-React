@@ -13,6 +13,7 @@ export const Inicio = () => {
 
   return (
     <>
+
       <MenuLogo abrirMenu={abrirMenu}/>
       {categoria && <Volver/>}
       {toggle && <NavegadorCategorias abrirMenu={abrirMenu}/>}

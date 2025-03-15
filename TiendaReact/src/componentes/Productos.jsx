@@ -25,9 +25,10 @@ console.log(productos);
               <div className="img-tarjeta-producto">
               <img src={producto.imagen} alt={producto.nombre} />
               </div>
-                
-                <p>{producto.precio}</p>
+                <div className="texto-container">
+                <p>{`${producto.precio}€`}</p>
                 <p>{producto.nombre}</p>
+                </div>
             <div className="botones-contenedor-productos">
             <button onClick={()=>dispatch(anadir({nombre: producto.nombre, id:producto.id, cantidad: 1, precio: producto.precio}))}>Añadir</button>
             <Link to={`/producto/${producto.id}`}><button>Detalles</button></Link>

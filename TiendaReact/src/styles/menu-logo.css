@@ -1,6 +1,13 @@
 .menu-logo-container{
-    margin-top: 80px;
+    margin-top: 110px;
+    margin-left: 20px;
 }
-.menu-logo-img{
-    width: 40px;
+
+@media (min-width: 768px){
+    .menu-logo-container{
+        margin-left: 40px;
+    }
+    .menu-logo-img{
+        width: 50px;
+    }
 }

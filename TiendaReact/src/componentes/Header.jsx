@@ -7,13 +7,20 @@ export const Header = () => {
   return (
     <>
       <section className="header">
-        <div className="header-img-container">
+        <Link className="header-img-container" to="/">
+        <div>
         <img className="header-logo" src="../../Lupas.png" />
         </div>
+        </Link>
       <div className="header-carrito-container">
       {
-        carrito.length ===0 ? (      <Link to="/carrito"><img className="header-carrito" src="../../public/cart.svg"/></Link>) : (  <Link to="/carrito"><img className="header-carrito" src="../../public/cart-fill.svg"/></Link>)
+        carrito.length ===0 ? (<Link to="/carrito"><svg xmlns="http://www.w3.org/2000/svg" width="50px" height="auto" fill="#F52D24" className="header-carrito" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+        </svg></Link>) : (  <Link to="/carrito"><svg xmlns="http://www.w3.org/2000/svg" width="50px" height="auto" fill="#F52D24" className="header-carrito" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+        </svg></Link>)
       }
+
       </div>
         </section>
     </>

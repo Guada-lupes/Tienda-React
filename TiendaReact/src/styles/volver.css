@@ -1,0 +1,17 @@
+.volver-container{
+    width: 80%;
+    text-align: center;
+    margin-left: 40px;
+        p{
+        font-size:large;
+    }
+}
+@media (min-width: 480px){
+    .volver-container{
+        width: 90%;
+        p{
+            font-size: larger;
+            color: #8b625f;
+        }
+    }
+}

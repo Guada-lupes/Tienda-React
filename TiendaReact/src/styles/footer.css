@@ -1,13 +1,12 @@
 .footer-container{
-    background-color: black;
-    height: 10vh;
+    background-color: #AAD5BB;
+    min-height: 10vh;
     color: aliceblue;
     font-size: 10px;
 
 }
 .footer-ul{
-    font-size: 11px;
-    background-color: aqua;
+    font-size: large;
     padding: 10px;
 }
 

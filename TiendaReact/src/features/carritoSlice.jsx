@@ -12,9 +12,10 @@ const carritoSlice = createSlice({
     reducir: (state, action) => {
       const pElegido = state.find((producto) => producto.id === action.payload);
       if (pElegido.cantidad === 1){
-        alert("Está seguro de que desea eliminar el producto")
-        return state.filter((producto) => producto.id !== action.payload);
-
+        const respuesta = confirm("¿Está seguro de que desea eliminar el producto?")
+        if(respuesta){
+          return state.filter((producto) => producto.id !== action.payload);
+        }
       }
       else{pElegido.cantidad -=1}
     },
