@@ -1,44 +1,83 @@
-¡Hola!!
+# TiendaReact
 
-El presente proyecto consiste en un carrito de compra de una tienda tecnológica. Se ha diseñado con "MobileFirst" haciendola responsive y  utilizando React, CSS y HTML.
+¡Hola!
+Este proyecto consiste en un **carrito de compra** para una tienda tecnológica. Está diseñado con la metodología _Mobile First_, lo que lo hace **responsivo**, y utiliza **React**, **CSS** y **HTML**.
 
--------Estructura-------
+---
 
-**TiendaReact**
+## Estructura del proyecto
 
-    *index.html: contiene el <div> root y el script a main.jsx
-    *README.md
-        SRC
-            Main.jsx: Se crea la ruta obteniendo el elemento root HTML. Se importan la herramientas: Provider de redux, BrowseRouter para el enrutado, la store con el reducer. Se envuelve App con los elementos anteriores.
-            App.jsx: Se crea un un layout para integrar header y footer en todas las paginas. Se envuelven las rutas en el contexto ProductosProvider. Se crean 4 rutas: Inicio, Categorias, Detalles de producto y Carrito.
-            *pages: Son dos las páginas principales (Carrito e Inicio)
-            *componentes: Incluyendo del header y el footer, existen 8 componentes.
-            *contextos: Se ha creado un contexto con los productos de la tienda para facilitar el acceso a la data desde cualqueir componente.
-            *customHooks: Se ha customizado un hook para utilizarlo en el menú desplegable.
-            *features: Se ha utilizado Redux y Toolkit para gestionar los estados del carrito. CarritoSlice.jsx maneja los estados.
-            *store: La tienda donde se guardan los reducer del pryecto, en este caso, unicamente uno.
-            *Services: Contiene el array de productos.
-            *Style: Contiene las páginas de estilos asociadas a cada componente.
+```plaintext
+TiendaReact
+│
+├── index.html: Contiene el <div> root y el script que apunta a main.jsx.
+├── README.md: Documento de información sobre el proyecto.
+│
+└── SRC
+    ├── Main.jsx: Configura la raíz de la aplicación enlazando el elemento root HTML y utilizando:
+    │             - `Provider` de Redux
+    │             - `BrowserRouter` para el enrutado
+    │             - La store con el reducer
+    │             Envuelve el componente `App` con estos elementos.
+    │
+    ├── App.jsx: Configura el layout principal para incluir el header y footer en todas las páginas.
+    │            Define las siguientes 4 rutas, envueltas en el contexto `ProductosProvider`:
+    │            - Inicio
+    │            - Categorías
+    │            - Detalles de producto
+    │            - Carrito
+    │
+    ├── pages/: Contiene las dos páginas principales:
+    │           - `Inicio`
+    │           - `Carrito`
+    │
+    ├── componentes/: Incluye 8 componentes, entre ellos el header y el footer.
+    │
+    ├── contextos/: Contiene un contexto para los productos de la tienda,
+    │               facilitando el acceso a los datos desde cualquier componente.
+    │
+    ├── customHooks/: Incluye un hook personalizado para el manejo del menú desplegable.
+    │
+    ├── features/: Gestión del estado del carrito con Redux y Toolkit.
+    │              El archivo `CarritoSlice.jsx` maneja los estados.
+    │
+    ├── store/: Contiene la store donde se guarda el único reducer del proyecto.
+    │
+    ├── services/: Incluye el array con los datos de los productos.
+    │
+    └── style/: Archivos de estilos asociados a cada componente.
 
--------Navegar por la página-------
+---
 
-Como podrás comprobar, la app es muy sencilla. 
-En el header podrás ver el logo con el nombre de la tienda "Lupas`s". Siempre que quieras regresar al inicio, pincha en el logo. En la parte derecha del header encontrarás el icono del carrito. Cuando selecciones tu primer producto, fíjate si cambia su color.
+## Cómo navegar por la aplicación
 
-En la página principal se despliega los productos de la tienda. Puedes ver un menú desplegable debajo del header, a la izquierda. Este menú guarda algunas categorías que te pueden ayudar a filtrar tu búsqueda.
+La aplicación es intuitiva y fácil de usar. Aquí tienes algunos puntos clave:
 
-Si te interesa tener más información sobre un producto, pincha en "Detalles".
+- **Header:**
+  - Contiene el logo con el nombre de la tienda: "Lupas's". Haz clic en el logo para regresar al inicio.
+  - En la esquina derecha del header encontrarás el icono del carrito, que cambiará de color al seleccionar tu primer producto.
 
-Si quieres ver que hay en tu carrito, pincha en el carrito.
+- **Página principal:**
+  - Se despliegan los productos disponibles en la tienda.
+  - Debajo del header, a la izquierda, encontrarás un menú desplegable con categorías para filtrar tu búsqueda.
 
-Hay un pequeño fallo que me hubiese gustado corregir:
+- **Detalles de producto:**
+  - Haz clic en "Detalles" para obtener más información sobre un producto específico.
 
-----El volver debe desaparecer si pincho en menu desplegable.
+- **Carrito:**
+  - Haz clic en el icono del carrito para ver los productos seleccionados.
 
-Esto lo arreglaré en otro momento.
+---
 
-Espero que lo disfrutes, saludos !
+## Problemas pendientes por resolver
 
-Guadalupe
+- **Ocultar el botón "Volver" al abrir el menú desplegable:**
+  Este es un pequeño fallo que se corregirá en futuras actualizaciones.
+
+---
+
+¡Espero que disfrutes de la experiencia! 😊
+**Guadalupe**
 
 
+```
