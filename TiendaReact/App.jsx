@@ -1,11 +1,11 @@
-import { Inicio } from "./pages/Inicio";
-import { ProductosProvider } from "./contextos/productosContexto";
+import { Inicio } from "./src/pages/Inicio";
+import { ProductosProvider } from "./src/contextos/productosContexto";
 import { Routes, Route } from "react-router-dom";
-import { Carrito } from "./pages/Carrito";
-import { DetalleProducto } from "./componentes/DetalleProducto";
-import { Header } from "./componentes/Header";
-import { Footer } from "./componentes/Footer";
-import "./styles/App.css"
+import { Carrito } from "./src/pages/Carrito";
+import { DetalleProducto } from "./src/componentes/DetalleProducto";
+import { Header } from "./src/componentes/Header";
+import { Footer } from "./src/componentes/Footer";
+import "./App.css"
 
 const Layout = ({ children }) => (
   <>
